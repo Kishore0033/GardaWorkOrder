@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "22372000000045047",
+      "name": "new-commercial-work-order",
+      "domain": {
+        "id": "10089306041",
+        "name": "new-commercial-work-order-856953012.development"
+      },
+      "timezone": "America/Edmonton",
+      "env": [
+        {
+          "idx": 1,
+          "id": "856953012",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

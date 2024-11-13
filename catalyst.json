@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "work_order_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

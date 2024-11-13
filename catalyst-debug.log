@@ -1,0 +1,44 @@
+[debug] [2024-11-13T06:07:09.088Z] : 
+[debug] [2024-11-13T06:07:09.090Z] : ----------------------------------------------------------------------
+[debug] [2024-11-13T06:07:09.091Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Kishore\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-11-13T06:07:09.091Z] : CLI Version:  1.16.2
+[debug] [2024-11-13T06:07:09.092Z] : Platform:     win32
+[debug] [2024-11-13T06:07:09.093Z] : Node Version: v16.20.2
+[debug] [2024-11-13T06:07:09.096Z] : Time:         Wed Nov 13 2024 11:37:09 GMT+0530 (India Standard Time)
+[debug] [2024-11-13T06:07:09.097Z] : ----------------------------------------------------------------------
+[debug] [2024-11-13T06:07:09.097Z] : 
+[debug] [2024-11-13T06:07:10.947Z] : > authorizing via signed-in user option
+[debug] [2024-11-13T06:07:10.949Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-11-13T06:07:10.975Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/22372000000045047 
+
+[debug] [2024-11-13T06:07:12.240Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 13 Nov 2024 06:07:11 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=756ad22b-20aa-42c1-9f0d-7a0c66805f14;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=756ad22b-20aa-42c1-9f0d-7a0c66805f14;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-13T06:07:12.249Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/22372000000045047/environment 
+
+[debug] [2024-11-13T06:07:13.359Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 13 Nov 2024 06:07:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=7a16c095-1874-401d-b9a8-e5efc3d2f59e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7a16c095-1874-401d-b9a8-e5efc3d2f59e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-13T06:07:14.254Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/22372000000045047/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-11-13T06:07:15.408Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 13 Nov 2024 06:07:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=7fb5cd85-3b8c-4de5-859e-c35e49c079eb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7fb5cd85-3b8c-4de5-859e-c35e49c079eb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-13T06:07:15.412Z] : unknown eol undefined hence skipping check
+[info] [2024-11-13T06:07:21.247Z] : 
+[info] [2024-11-13T06:07:21.248Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-11-13T06:07:21.249Z] : i work_order_function: http://localhost:3000/server/work_order_function/
+[info] [2024-11-13T06:07:21.250Z] : 
+[info] [2024-11-13T06:07:21.251Z] : 
+[info] [2024-11-13T06:07:21.252Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-11-13T06:07:21.254Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-11-13T06:07:21.255Z] : 
+[info] [2024-11-13T06:09:44.915Z] : 
+change of middleware\CRMSDK.js in work_order_function detected. Preparing your function, please wait...
+[info] [2024-11-13T06:09:51.828Z] : i AdvancedIO[work_order_function]: ready!
+[info] [2024-11-13T06:09:51.829Z] : i AdvancedIO[work_order_function]: http://localhost:3000/server/work_order_function/
+[info] [2024-11-13T06:11:02.564Z] : 
+change of middleware\CRMSDK.js in work_order_function detected. Preparing your function, please wait...
+[info] [2024-11-13T06:11:09.579Z] : i AdvancedIO[work_order_function]: ready!
+[info] [2024-11-13T06:11:09.581Z] : i AdvancedIO[work_order_function]: http://localhost:3000/server/work_order_function/
